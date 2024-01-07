@@ -15,19 +15,19 @@ rd_female = driver.find_element(By.XPATH,"//input[@id = 'gender-female']")
 
 print(f"Default Randio Button Status")
 
-print(f"Male Buttom Status : ",rd_male.is_selected())
-print(f"Female Buttom Status : ",rd_female.is_selected())
+print(f"Male Buttom Status : ", rd_male.is_selected())
+print(f"Female Buttom Status : ", rd_female.is_selected())
 
 print(f"Default Randio Button Status After clicking on radio male button")
 
 rd_male.click()
 
-print(f"Male Buttom Status : ",rd_male.is_selected())
-print(f"Female Buttom Status : ",rd_female.is_selected())
+print(f"Male Buttom Status : ", rd_male.is_selected())
+print(f"Female Buttom Status : ", rd_female.is_selected())
 
 print(f"Default Randio Button Status After clicking on radio female button")
 
 rd_female.click()
 
-print(f"Male Buttom Status : ",rd_male.is_selected())
-print(f"Female Buttom Status : ",rd_female.is_selected())
+print(f"Male Buttom Status : ", rd_male.is_selected())
+print(f"Female Buttom Status : ", rd_female.is_selected())
