@@ -1,4 +1,13 @@
-import time
+# Conditional Command
+
+# is_enabled()
+# is_displayed()
+# is_selected()
+
+
+# is _selected is generally used for radio button / check box
+
+
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By

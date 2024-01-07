@@ -1,6 +1,14 @@
-import time
+# Browser Navigation
 
-from selenium import webdriver
+# maximize_window()
+# get()
+# refresh()
+# back()
+# forward()
+
+
+
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 

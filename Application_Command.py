@@ -1,3 +1,13 @@
+
+# Application command
+
+# get () - opening the application URL
+# title - to capture teh title of the curretn webpage
+# current_url - to capture the current url of the webpage
+# page_source - to capture source code of the page
+
+
+
 from selenium import webdriver
 
 
